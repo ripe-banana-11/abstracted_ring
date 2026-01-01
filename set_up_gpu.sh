@@ -1,0 +1,4 @@
+DEBIAN_FRONTEND=noninteractive bash get-docker.sh
+DEBIAN_FRONTEND=noninteractive bash install_nvidia_driver.sh
+DEBIAN_FRONTEND=noninteractive bash install_cuda_12.8.sh
+DEBIAN_FRONTEND=noninteractive bash install_nvidia_container_toolkit.sh
